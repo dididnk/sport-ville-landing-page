@@ -88,13 +88,4 @@ Les contributions sont les bienvenues ! Si vous avez des idées d'améliorations
 * **\[@CodeQuasarr]** - Contributeur
 
 ---
-
-## Licence
-
-Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
 Merci d'avoir visité le projet **SportVille** !
-
-```
