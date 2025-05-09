@@ -1,6 +1,3 @@
-Voici un modèle de fichier `README.md` pour présenter le projet sur ton dépôt GitHub, qui présente la landing page de SportVille :
-
-````markdown
 # SportVille - Landing Page
 
 Bienvenue sur le dépôt de **SportVille**. Ce projet est la **landing page** de l'application mobile SportVille, une plateforme dédiée à la connexion des passionnés de sport à travers des activités locales.
