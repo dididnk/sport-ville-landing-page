@@ -46,8 +46,7 @@ Pour lancer ce projet en local, suivez les étapes ci-dessous :
 
    ```bash
    git clone https://github.com/votre-utilisateur/sportville-landing-page.git
-````
-
+   ```
 2. Accédez au répertoire du projet :
 
    ```bash
