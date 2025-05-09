@@ -5,19 +5,8 @@ export interface Feature {
     icon: string;
 }
 
-export interface Sport {
-    id: number;
-    name: string;
-    icon: string;
-    description: string;
-    image: string;
-}
-
-export interface Event {
+export interface Link {
     id: number;
     title: string;
-    date: string;
-    description: string;
-    status: 'available' | 'full';
-    location: string;
+    link: string;
 }
