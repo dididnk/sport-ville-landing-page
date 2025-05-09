@@ -1,30 +1,39 @@
-import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
-import SportsCategories from './components/SportsCategories/SportsCategories';
-import Events from './components/Events/Events';
-import ContactForm from './components/ContactForm/ContactForm';
+import DownloadApp from './components/DownloadApp/DownloadApp';
 import Footer from './components/Footer/Footer';
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
+import TermsOfUse from './pages/TermsOfUse/TermsOfUse';
 
 function App() {
-  // Update the page title
   useEffect(() => {
-    document.title = 'SportCity - World-Class Sports Complex';
+    document.title = 'SportVille';
   }, []);
 
   return (
-    <div className="relative">
-      <Header />
-      <main>
-        <Hero />
-        <Features />
-        <SportsCategories />
-        <Events />
-        <ContactForm />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="relative">
+              <Header />
+              <main>
+                <Hero />
+                <Features />
+                <DownloadApp />
+              </main>
+              <Footer />
+            </div>
+          }
+        />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-use" element={<TermsOfUse />} />
+      </Routes>
+    </Router>
   );
 }
 

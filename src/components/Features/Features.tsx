@@ -4,13 +4,13 @@ import { FEATURES } from '../../utils/constants';
 
 const Features: React.FC = () => {
   return (
-    <section id="infrastructures" className="py-20 px-6 bg-gray-50">
+    <section id="about" className="py-20 px-6 bg-gray-50">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Des installations de classe mondiale</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Pourquoi choisir SportVille ?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Découvrez nos infrastructures sportives de pointe conçues pour les athlètes de tous niveaux. Des piscines
-            olympiques aux installations d'entraînement professionnelles.
+            Rejoignez une communauté dynamique où le sport rime avec partage, proximité et engagement. 
+            SportVille vous permet de créer, découvrir et participer à des activités sportives près de chez vous, tout en échangeant avec d'autres passionnés.
           </p>
         </div>
         
