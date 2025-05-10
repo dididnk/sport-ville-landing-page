@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
@@ -13,27 +13,26 @@ function App() {
     document.title = 'SportVille';
   }, []);
 
-  return (    
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="relative">
-              <Header />
-              <main>
-                <Hero />
-                <Features />
-                <DownloadApp />
-              </main>
-              <Footer />
-            </div>
-          }
-        />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/terms-of-use" element={<TermsOfUse />} />
-      </Routes>
+  return (
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <div className="relative">
+            <Header />
+            <main>
+              <Hero />
+              <Features />
+              <DownloadApp />
+            </main>
+            <Footer />
+          </div>
+        }
+      />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms-of-use" element={<TermsOfUse />} />
+    </Routes>
   );
 }
 
-
-export default App
+export default App;
