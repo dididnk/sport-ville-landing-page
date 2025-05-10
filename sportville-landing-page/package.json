@@ -1,6 +1,6 @@
 {
   "name": "sportville-landing-page",
-  "homepage": "https://dididnk.github.io/sport-ville-landing-page",
+  "homepage": "https://dididnk.github.io/sport-ville-landing-page/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
