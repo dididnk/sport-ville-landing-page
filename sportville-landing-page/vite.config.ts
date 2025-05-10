@@ -3,7 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_DEPLOY_TARGET === 'gh-pages'
-    ? '/sport-ville-landing-page/'
-    : '/',
+  base: '/sport-ville-landing-page/',
 });
