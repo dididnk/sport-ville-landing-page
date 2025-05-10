@@ -13,8 +13,7 @@ function App() {
     document.title = 'SportVille';
   }, []);
 
-  return (
-    <Router>
+  return (    
       <Routes>
         <Route
           path="/"
@@ -33,7 +32,6 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-use" element={<TermsOfUse />} />
       </Routes>
-    </Router>
   );
 }
 

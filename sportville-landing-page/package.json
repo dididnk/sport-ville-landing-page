@@ -1,13 +1,15 @@
 {
   "name": "sportville-landing-page",
+  "homepage": "https://dididnk.github.io/sport-ville-landing-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.6",
