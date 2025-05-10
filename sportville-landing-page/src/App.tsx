@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -6,7 +7,11 @@ import DownloadApp from './components/DownloadApp/DownloadApp';
 import Footer from './components/Footer/Footer';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import TermsOfUse from './pages/TermsOfUse/TermsOfUse';
-const App: React.FC = () => {
+
+function App() {
+  useEffect(() => {
+    document.title = 'SportVille';
+  }, []);
 
   return (
     <Router>
@@ -31,5 +36,6 @@ const App: React.FC = () => {
     </Router>
   );
 }
+
 
 export default App
