@@ -14,7 +14,7 @@ export const COLORS = {
 };
 
 // Sample data
-import type { Feature, Link } from "../types";
+import type { Feature, Link, Statistique } from "../types";
 
 export const FEATURES: Feature[] = [
     {
@@ -71,5 +71,28 @@ export const LEGALS: Link[] = [
         id: 2,
         title: 'Conditions d’utilisation',
         link: '/terms-of-use',
+    },
+];
+
+export const STATS: Statistique[] = [
+    {
+        id: 1,
+        title: '1 200+',
+        description: 'Utilisateurs actifs chaque mois',
+    },
+    {
+        id: 2,
+        title: '2 500+',
+        description: 'Activités sportives créées',
+    },
+    {
+        id: 3,
+        title: '4.8/5',
+        description: 'Note moyenne des activités',
+    },
+    {
+        id: 4,
+        title: '90%',
+        description: 'Taux de participation confirmé',
     },
 ];

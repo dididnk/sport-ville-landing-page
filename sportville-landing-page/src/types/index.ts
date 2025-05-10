@@ -10,3 +10,9 @@ export interface Link {
     title: string;
     link: string;
 }
+
+export interface Statistique {
+    id: number;
+    title: string;
+    description: string;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { COLORS } from '../../utils/constants';
 import { ArrowRight, Star } from 'lucide-react';
+import { STATS } from '../../utils/constants';
 import BackgroundImage from '../../assets/images/background.png'
 
 const Hero: React.FC = () => {
@@ -50,18 +51,13 @@ const Hero: React.FC = () => {
 
             {/* Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-16 animate-fade-in-more-delayed">
-              {[
-                { number: '1 200+', label: 'Utilisateurs actifs chaque mois' },
-                { number: '2 500+', label: 'Activités sportives créées' },
-                { number: '4.8/5', label: 'Note moyenne des activités' },
-                { number: '90%', label: 'Taux de participation confirmé' }
-              ].map((stat, index) => (
+              {STATS.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-2xl sm:text-3xl font-bold mb-2" style={{ color: COLORS.secondary }}>
-                    {stat.number}
+                    {stat.title}
                   </div>
                   <div className="text-sm sm:text-base" style={{ color: COLORS.soft }}>
-                    {stat.label}
+                    {stat.description}
                   </div>
                 </div>
               ))}
