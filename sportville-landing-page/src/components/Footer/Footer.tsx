@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               <a
                 key={index}
                 target="_blank"
-                href="https://www.instagram.com/sport_ville.app?igsh=c2Y2Y3hyazBsbGF3&utm_source=qr"
+                href="https://www.instagram.com/sportville.app/"
                 className="w-10 h-10 bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full flex items-center justify-center transition-colors"
                 style={{ color: COLORS.primary }}
               >
