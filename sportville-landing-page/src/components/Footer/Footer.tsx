@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           </div>
           <h2 className="text-xl font-semibold mb-2">SportVille</h2>
           <p className="text-gray-400 leading-relaxed">
-            SportVille connecte les passionnés de sport autour d’activités locales, conviviales et notées entre participants.
+            Le sport à portée de main, la passion en commun.
           </p>
         </div>
 
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="text-lg font-bold mb-4 border-b border-gray-700 pb-2">À propos</h3>
           <p className="text-gray-400 mb-4">
-            Le sport n’est pas qu’un effort, c’est un lien. Rejoignez notre communauté active dans votre ville.
+            SportVille connecte les passionnés de sport autour d’activités locales, conviviales et notées entre participants.
           </p>
           <div className="flex space-x-4 mt-6">
             {[Instagram].map((Icon, index) => (
