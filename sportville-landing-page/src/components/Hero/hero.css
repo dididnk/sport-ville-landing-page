@@ -1,0 +1,14 @@
+
+.hero-container{
+   background: url('../../assets/images/background.png') center center no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+@media (max-width: 600px) {
+    .hero-container{
+        background: url('../../assets/images/background-mobile.png') center center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}

@@ -2,20 +2,14 @@ import React from 'react';
 import { COLORS } from '../../utils/constants';
 import { ArrowRight, Star } from 'lucide-react';
 import { STATS } from '../../utils/constants';
-import BackgroundImage from '../../assets/images/background.png'
+// import BackgroundImage from '../../assets/images/background.png'
+import './hero.css'
 
 const Hero: React.FC = () => {
   return (
       <section className="relative min-h-screen flex items-center justify-center px-6 py-24">
         {/* Gradient overlay */}
-        <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${BackgroundImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      ></div>
+        <div className="hero-container absolute inset-0 z-0"></div>
 
         <div className="container mx-auto relative z-10 max-w-6xl">
           <div className="lg:w-2/3">
