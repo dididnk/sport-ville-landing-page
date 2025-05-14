@@ -2,6 +2,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: 'Lato', sans-serif;
   color: black;
   line-height: 1.7;
 }
@@ -9,6 +10,7 @@
 .privacy-policy-container h1,
 .privacy-policy-container h2 {
   color: #1f53ff;
+  font-family: 'Love Ya Like A Sister', cursive;
   margin-top: 2rem;
 }
 
