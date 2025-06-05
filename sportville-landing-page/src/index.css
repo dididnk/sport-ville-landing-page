@@ -24,8 +24,8 @@ body {
 }
 
 .appName {
-  font-family: "Love Ya Like A Sister", cursive;
-  font-size: large;
+  font-weight: bold;
+  font-size: 24px;
   font-style: normal;
 }
 

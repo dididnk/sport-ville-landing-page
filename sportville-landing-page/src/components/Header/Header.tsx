@@ -24,7 +24,7 @@ const Header: React.FC = () => {
       className={`fixed top-0 left-0 right-0 z-50 px-6 py-4 transition-all duration-300 ${
         isScrolled ? 'bg-opacity-95 shadow-md' : 'bg-opacity-0'
       }`}
-      style={{ backgroundColor: isScrolled ? COLORS.primary : 'transparent' }}
+      style={{ backgroundColor: isScrolled ? COLORS.background : 'transparent' }}
     >
       <div className="container mx-auto flex justify-between items-center">
         <Logo />

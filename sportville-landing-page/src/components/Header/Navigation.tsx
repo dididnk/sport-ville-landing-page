@@ -37,7 +37,7 @@ const Navigation: React.FC<NavigationProps> = () => {
 
   {/* Mobile Menu */}
   {isMenuOpen && (
-    <div className="md:hidden absolute top-16 left-0 right-0 bg-blue-600 z-10 p-4 rounded-b-lg shadow-lg" style={{ backgroundColor: COLORS.primary }}>
+    <div className="md:hidden absolute top-16 left-0 right-0 bg-blue-600 z-10 p-4 rounded-b-lg shadow-lg" style={{ backgroundColor: COLORS.background }}>
       <div className="flex flex-col space-y-4">
         {NAVIGATIONS.map(nav => (
             <a 
