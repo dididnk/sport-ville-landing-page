@@ -44,6 +44,7 @@ const Hero: React.FC = () => {
             </div>
 
             {/* Stats */}
+            {/*
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-16 animate-fade-in-more-delayed">
               {STATS.map((stat, index) => (
                 <div key={index} className="text-center">
@@ -56,6 +57,7 @@ const Hero: React.FC = () => {
                 </div>
               ))}
             </div>
+            */}
           </div>
         </div>
 
