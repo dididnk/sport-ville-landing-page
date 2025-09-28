@@ -1,7 +1,7 @@
 import React from 'react';
 import { NAVIGATIONS, LEGALS } from '../../utils/constants';
 import { COLORS } from '../../utils/constants';
-import { Instagram, Mail, MapPin } from 'lucide-react';
+import { Instagram, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -67,7 +67,6 @@ const Footer: React.FC = () => {
           <h3 className="text-lg font-bold mb-4 border-b border-gray-700 pb-2">Nous contacter</h3>
           <ul className="space-y-4">
             {[
-              { icon: MapPin, text: '4, rue du Dôme 67000 Strasbourg' },
               { icon: Mail, text: 'contact@sport-ville.fr' },
             ].map((item, index) => (
               <li key={index} className="flex items-start">
