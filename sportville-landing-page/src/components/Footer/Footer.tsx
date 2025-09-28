@@ -83,6 +83,7 @@ const Footer: React.FC = () => {
         <p className="text-gray-400 mb-4 md:mb-0">
           &copy; {new Date().getFullYear()} SportVille. Tous droits réservés.
         </p>
+        {/*
         <div className="flex space-x-6 justify-center md:justify-end text-sm">
           {LEGALS.map(value => (
               <li key={value.id}>
@@ -90,6 +91,7 @@ const Footer: React.FC = () => {
               </li>
             ))}
         </div>
+        */}
       </div>
     </div>
   </footer>
