@@ -1,5 +1,5 @@
 import React from 'react';
-import { NAVIGATIONS, LEGALS } from '../../utils/constants';
+import { NAVIGATIONS } from '../../utils/constants';
 import { COLORS } from '../../utils/constants';
 import { Instagram, Mail } from 'lucide-react';
 
